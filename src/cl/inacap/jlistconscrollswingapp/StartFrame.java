@@ -47,12 +47,12 @@ public class StartFrame extends JFrame {
 		contentPane.add(scrollPane);
 		
 		JList list = new JList(); //3. Se crea la lista.
-		scrollPane.setViewportView(list); //4. Se a�ade la lista al ScrollPane.
+		scrollPane.setViewportView(list); //4. Se añade la lista al ScrollPane.
 		
 		DefaultListModel mo = new DefaultListModel(); //5. Se crea el modelo de la lista.
 		
 		for (int i = 0; i < 50; i++) {
-			mo.addElement("Daniel Alvarez " + (i + 1)); //6. Se a�aden elementos a la lista.
+			mo.addElement("Daniel Alvarez " + (i + 1)); //6. Se añaden elementos a la lista.
 		}
 		
 		list.setModel(mo); //7. Se le carga el modelo a la lista.
