@@ -11,7 +11,6 @@ import javax.swing.JScrollPane;
 import javax.swing.JList;
 
 public class StartFrame extends JFrame {
-
 	private JPanel contentPane;
 
 	/**
